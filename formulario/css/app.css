@@ -1,0 +1,77 @@
+.bf-pull-rigth{
+	float: right !important;	
+	margin-right: 0% !important;
+}
+
+/*Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+*/
+
+@media (min-width: 200px)  {
+    body {
+        background-color: lightblue;
+    }
+    .bf-pull-rigth{
+		float: none !important;		
+		padding: 15px !important;
+	}
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (min-width: 768px)  {
+    body {
+        background-color: lightblue;
+    }
+    .bf-pull-rigth{
+    	float: right !important;
+    	width: 15% !important;	
+	}
+		
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+
+    .bf-pull-rigth{
+		float: right !important;
+		width: 40% !important;
+	}
+	.bf-button-spacing {
+		margin-left: 10px !important;
+	}
+
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    body {
+        background-color: green;
+    }
+    .bf-pull-rigth{
+		float: right !important;
+		width: 32% !important;
+	}
+	.bf-button-spacing {
+		margin-left: 10px !important;
+	}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    body {
+        background-color: yellow;
+    }
+    .bf-pull-rigth{
+		float: right !important;
+		width: 24% !important;
+	}
+	.bf-button-spacing {
+		margin-left: 10px !important;
+	}
+}
